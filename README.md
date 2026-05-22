@@ -1,11 +1,11 @@
 [README.md](https://github.com/user-attachments/files/28159884/README.md)
-FitTrack — Personal Workout Tracker
+## FitTrack — Personal Workout Tracker
 
 A mobile-first fitness tracking app to log workouts, track lifts, and visualize progress over time. Built with React and Recharts. Fully offline — no login, no cloud, no BS.
 
 ---
 
-Features
+## Features
 
 - **Log any workout** — Strength, Bodyweight, and Cardio support
 - **Custom exercise library** — Create your own exercises, reuse them every session
@@ -18,7 +18,7 @@ Features
 
 ---
 
-Tech Stack
+## Tech Stack
 | Framework | React (web) / React Native Expo (mobile) |
 | Charts | Recharts (web) / Victory Native (mobile) |
 | Storage | localStorage (web) / AsyncStorage (mobile) |
@@ -44,7 +44,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📱 Running on Android (Expo)
+## Running on Android (Expo)
 
 ```bash
 # 1. Install Expo CLI
@@ -69,7 +69,7 @@ npx expo start
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 fittrack/
@@ -92,7 +92,7 @@ Automatically calculated from the heaviest set logged per session. Can also be e
 
 ---
 
-Data Model
+## Data Model
 
 All data is stored as JSON in localStorage:
 
@@ -114,21 +114,7 @@ All data is stored as JSON in localStorage:
 }]
 ```
 
----
-
-Deploying to Vercel (Free)
-
-```bash
-# 1. Push your code to GitHub
-
-# 2. Go to vercel.com → New Project → Import your repo
-
-# 3. Click Deploy — done. You get a live URL instantly.
-```
-
----
-
-Roadmap
+## Roadmap
 
 - [ ] Rest timer between sets
 - [ ] Export data as CSV
@@ -139,11 +125,11 @@ Roadmap
 ---
 
 
-Built by 
+## Built by 
 [GitHub](https://github.com/thehiteshjoshi) · [LinkedIn](www.linkedin.com/in/hitesh-joshi-002810373)
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use, modify, and distribute.
